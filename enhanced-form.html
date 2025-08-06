@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A registration site for Gross Anatomy Bootcamp">
+    <meta name="keywords" content="Gross Anatomy, first year, medical students">
+    <title>Gross Anatomy Revision Bootcamp</title>
+</head>
+<body>
+    <header>
+        <h1>Gross Anatomy Revision Bootcamp</h1>
+    </header>
+    <section id="Event_Info">
+        <h2>About the Bootcamp</h2>
+        <p><b>Gross Anatomy Revision Bootcamp</b> is a free, <b>two-day</b> high-yield Session tailored for 
+            <b>first year</b> medical students.<br>
+            In this Session, we will cover <b>key anatomical regions</b>,
+            practise with <b>real-time specimen</b> and explore <b>clinical correlations</b> to help you 
+            master the essentials and feel exam-ready</p>
+            <video width="400" height="300" controls>
+            <source src="Gross Anatomy lab Session.mp4" type="video/mp4">
+            Your browser does not support video tag
+            </video>    
+    </section>
+
+    <section id="Topics covered">
+        <h2>Topics to be Covered</h2>
+        <ul>
+            <li>Lower Limb</li>
+            <li>Upper Limb</li>
+        </ul>
+
+    </section>
+
+    <section id="Schedule">
+        <h2>Bootcamp Schedule</h2>
+        <table border="1">
+            <tr>
+                <th>Day</th>
+                <th>Activity</th>
+                <th>Time</th>        
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Lower Limb Introduction</td>
+                <td>10.00 am - 12.00 noon</td>  
+            </tr>
+            <tr>
+                <td></td>
+                <td>Lower limb Specimen Identification</td>
+                <td>2.00 pm - 4.00 pm</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Lower limb Q&A session</td>
+                <td>6.00 pm - 7.00 pm</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Upper Limb Introduction</td>
+                <td>10.00 am - 12.00 noon</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Upper Limb Specimen Identification</td>
+                <td>2.00 pm - 4.00 pm</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Upper Limb Q&A Session</td>
+                <td>6.00 pm-7.00 pm</td>
+            </tr>
+
+        </table>
+    </section>
+    <section id="Requirements">
+        <h2>Bootcamp Requirements</h2>
+        <ol>
+            <li>Clean Lab Coat</li>
+            <li>A pair of clean gloves</li>
+            <li>Clean mask</li>
+            <li>Name tag</li>
+            <li>Human Anatomy Atlas</li>
+            <li>Notebook</li>
+            <li>Pen</li>
+        </ol>
+    </section>
+
+    <section id="Registration">
+        <h2>Bootcamp Registration</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend><b>Personal Info</b></legend>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="Name" placeholder="Enter your full name" autocomplete="name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="username@gmail.com" autocomplete="email" required>
+                <br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" id="Female" name="gender" value="Female">Female
+                <input type="radio" name="gender" id="Male" value="Male">Male
+                <br><br>
+
+                <label for="school">School:</label>
+                <input type="text" id="school" name="school" placeholder="University/College" autocomplete="school">
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Session Preference</b></legend>
+                <label for="session">Preferred Session:</label>
+                <select name="session" id="session">
+                    <option value="select">Select Option</option>
+                    <option value="Friday">Friday Session</option>
+                    <option value="Saturday">Saturday Session</option>
+                    <option value="Both">Both Sessions</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend><b>Additional Info</b></legend>
+                <label for="source">How did you hear about us?</label>
+                <input type="checkbox" name="source" value="Social Media" >Social Media
+                <input type="checkbox" name="source" value="Friends">Friends
+                <input type="checkbox" name="source" value="School Email">School Email
+                <input type="checkbox" name="source" value="Campus noticeboard">Campus noticeboard
+                <br><br>
+
+                <label for="requests">Any Special Requests?</label><br>
+                <textarea name="requests" id="requests" rows="6" cols="100" minlength="2" maxlength="50" ></textarea>
+            </fieldset>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+</body>
+</html>
